@@ -1,0 +1,140 @@
+[
+    {
+        "question": "What is Encapsulation?",
+        "answer": "Encapsulation involves the bundling of data with the methods that operate on that data.",
+        "difficulty_level": "Easy",
+        "tags": ["OOP", "Fundamentals"]
+    },
+    {
+        "question": "Explain Polymorphism in Python.",
+        "answer": "Polymorphism allows us to define methods in the child class with the same name as defined in their parent class.",
+        "difficulty_level": "Medium",
+        "tags": ["OOP", "Python"]
+    },
+    {
+        "question": "What is a Binary Search Tree?",
+        "answer": "A binary search tree (BST) is a binary tree in which each node has only up to two children, where the left child contains a value lesser than the parent node, and the right child contains a value greater.",
+        "difficulty_level": "Medium",
+        "tags": ["Data Structures", "Trees"]
+    },
+    {
+        "question": "Describe the quicksort algorithm.",
+        "answer": "Quicksort is a divide-and-conquer algorithm that selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.",
+        "difficulty_level": "Hard",
+        "tags": ["Algorithms", "Sorting"]
+    },
+    {
+        "question": "What is Inversion of Control (IoC)?",
+        "answer": "Inversion of Control is a broad programming principle where the control of objects or portions of a program is transferred to a container or framework. It's most often used in the context of object-oriented programming.",
+        "difficulty_level": "Medium",
+        "tags": ["Software Engineering", "Design Patterns"]
+    },
+    {
+        "question": "Explain the difference between SQL and NoSQL databases.",
+        "answer": "SQL databases are primarily relational, table-based databases, whereas NoSQL databases are typically document-based, key-value pairs, graph databases or wide-column stores. NoSQL provides flexible schemas and scales more easily with large amounts of data distributed across multiple machines.",
+        "difficulty_level": "Medium",
+        "tags": ["Databases", "SQL", "NoSQL"]
+    },
+    {
+        "question": "What is a deadlock?",
+        "answer": "A deadlock is a situation in concurrent programming where two or more processes are each waiting for the other to release a resource, or more than two processes are waiting for resources in a circular chain.",
+        "difficulty_level": "Hard",
+        "tags": ["Concurrency", "Operating Systems"]
+    },
+    {
+        "question": "How does the HTTP protocol work?",
+        "answer": "HTTP is a stateless protocol used for transferring hypertext requests and information on the internet. HTTP works as a request-response protocol between a client and server.",
+        "difficulty_level": "Easy",
+        "tags": ["Networking", "HTTP"]
+    },
+    {
+        "question": "What are the principles of RESTful API design?",
+        "answer": "RESTful APIs should follow stateless client-server communication, operated by using HTTP methods explicitly, use a layered system architecture, and are capable of returning different formats like JSON or XML.",
+        "difficulty_level": "Medium",
+        "tags": ["API Design", "REST"]
+    },
+    {
+        "question": "What is the Big O notation?",
+        "answer": "Big O notation describes the upper limit of the time complexity in terms of the worst-case scenario as a function of the input size. It's used to describe the performance or complexity of an algorithm.",
+        "difficulty_level": "Easy",
+        "tags": ["Algorithms", "Big O"]
+    },
+    {
+        "question": "What is Artificial Intelligence (AI)?",
+        "answer": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. It involves the study and development of computer systems that can perform tasks that typically require human intelligence.",
+        "difficulty_level": "Medium",
+        "tags": ["AI", "Machine Learning"]
+    },
+    {
+        "question": "What is Machine Learning?",
+        "answer": "Machine Learning is a subset of artificial intelligence that enables computers to learn from data and improve their performance on a task without being explicitly programmed. It focuses on the development of algorithms that can access data and use it to learn for themselves.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "AI"]
+    },
+    {
+        "question": "Explain the concept of overfitting in Machine Learning.",
+        "answer": "Overfitting occurs when a machine learning model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. It essentially captures noise or random fluctuations in the training data rather than the intended underlying relationships.",
+        "difficulty_level": "Hard",
+        "tags": ["Machine Learning", "Overfitting"]
+    },
+    {
+        "question": "What is a Convolutional Neural Network (CNN)?",
+        "answer": "A Convolutional Neural Network (CNN) is a class of deep neural networks, most commonly applied to analyzing visual imagery. They are highly effective in tasks such as image recognition and classification because of their ability to take into account the spatial hierarchy of features in an image.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "Neural Networks", "CNN"]
+    },
+    {
+        "question": "Explain the K-nearest neighbors (KNN) algorithm.",
+        "answer": "The K-nearest neighbors (KNN) algorithm is a simple, non-parametric, and lazy learning algorithm used for classification and regression. In KNN, an object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "KNN", "Classification"]
+    },
+    {
+        "question": "What is the bias-variance tradeoff?",
+        "answer": "The bias-variance tradeoff is a fundamental concept in supervised machine learning that describes the balance between the error introduced by the bias of the model and the error introduced by the variance of the model. A high bias model is too simplistic and may underfit the data, while a high variance model may overfit the data.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "Bias-Variance Tradeoff"]
+    },
+    {
+        "question": "How does a Decision Tree work?",
+        "answer": "A Decision Tree is a flowchart-like structure in which each internal node represents a feature or attribute, each branch represents a decision, and each leaf node represents an outcome or a class label. Decision Trees are commonly used in classification and regression tasks.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "Decision Trees"]
+    },
+    {
+        "question": "Explain the concept of Reinforcement Learning.",
+        "answer": "Reinforcement Learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent learns to achieve a goal or maximize some notion of cumulative reward by taking actions and receiving feedback from the environment.",
+        "difficulty_level": "Hard",
+        "tags": ["Machine Learning", "Reinforcement Learning"]
+    },
+    {
+        "question": "What is the difference between Supervised Learning and Unsupervised Learning?",
+        "answer": "Supervised Learning is a type of machine learning where the algorithm is trained on a labeled dataset, and it learns to make predictions based on input-output pairs. Unsupervised Learning, on the other hand, is a type of machine learning where the algorithm is trained on an unlabeled dataset, and it learns to find patterns or structure in the data without explicit supervision.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "Supervised Learning", "Unsupervised Learning"]
+    },
+    {
+        "question": "What is Gradient Descent?",
+        "answer": "Gradient Descent is an optimization algorithm used in machine learning and deep learning to minimize the loss function by iteratively moving in the direction of the steepest descent of the loss function with respect to the parameters of the model.",
+        "difficulty_level": "Medium",
+        "tags": ["Machine Learning", "Optimization", "Gradient Descent"]
+    },
+    {
+        "question": "What is a Puzzle?",
+        "answer": "A puzzle is a game, problem, or toy that tests a person's ingenuity or knowledge. It often involves solving problems or challenges in a logical or strategic manner.",
+        "difficulty_level": "Easy",
+        "tags": ["Puzzle", "Problem Solving"]
+    },
+    {
+        "question": "How would you measure 45 minutes using two identical wires, each of which takes an hour to burn?",
+        "answer": "You can measure 45 minutes using two identical wires and a matchstick. Light one end of the first wire and both ends of the second wire simultaneously. When the second wire burns out completely (in 30 minutes), light the other end of the first wire. When the first wire burns out completely (15 more minutes), 45 minutes have passed.",
+        "difficulty_level": "Hard",
+        "tags": ["Puzzle", "Problem Solving"]
+    },
+    {
+        "question": "You have 100 doors in a row that are all initially closed. You make 100 passes by the doors starting with the first door every time. The first time through, visit every door and toggle the door (if the door is closed, open it; if it is open, close it). The second time, only visit every 2nd door (i.e., door #2, #4, #6, ...), and toggle it. The third time, visit every 3rd door (i.e., door #3, #6, #9, ...), etc., until you only visit the 100th door. What state are the doors in after the last pass?",
+        "answer": "After the last pass, the doors numbered with perfect square numbers (1, 4, 9, 16, ...) will remain open, and the rest will be closed. This is because these doors will be toggled an odd number of times (i.e., they will be open at the end), while the other doors will be toggled an even number of times (i.e., they will be closed at the end).",
+        "difficulty_level": "Hard",
+        "tags": ["Puzzle", "Problem Solving"]
+    }
+]

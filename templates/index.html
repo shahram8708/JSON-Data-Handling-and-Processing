@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Questions</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interview Questions Filter</h1>
+        <form id="filters" class="filter-form">
+            <div class="form-group">
+                <label for="difficulty">Difficulty:</label>
+                <select name="difficulty" id="difficulty">
+                    <option value="">All</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tags">Tags (comma-separated):</label>
+                <input type="text" id="tags" name="tags">
+            </div>
+            <button type="button" onclick="fetchQuestions()">Filter</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
